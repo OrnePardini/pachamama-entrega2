@@ -1,0 +1,335 @@
+/* MOBILE LAST */
+
+/* Colors
+#ffffff - blanco
+#e9e7da - beige fondo logo
+#cb997e - marroncito
+#f4f3ee - cremita
+#e58461 - rosa viejo
+#000000 - negro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap');
+/* font-family: 'Hind', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.navbar-brand img {
+    width: 150px;
+    padding: 5px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #e9e7da 70%, white);
+}
+
+.nav-link {
+    color: #cb997e;
+}
+
+.nav-link:hover {
+    color: #e58461;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    padding: 15px;
+}
+
+.footer a,
+.footer p {
+    color: #cb997e;
+}
+
+.footer a:hover {
+    color: #e58461;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #f4f3ee;
+}
+
+/* Index */
+.mainIndex {
+    min-height: 65vh;
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.indexBackbround {
+    background-color: rgba(240, 255, 255, 0.588);
+    height: 65vh;
+    width: 100vw;
+    padding: 10px;
+}
+
+.indexTitulos {
+    display: flex;
+    text-align: center;
+    height: 55vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.indexTitulos h1 {
+    font-size: 2.5rem;
+    padding: 10px;
+    color: #e58461;
+    font-weight: bold;
+}
+
+.indexTitulos h1:hover {
+    transform: skew(-10deg);
+    font-size: 3rem;
+    transition: 4s;
+}
+
+.indexTitulos h2 {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.animate__heartBeat {
+    animation-duration: 10s;
+}
+
+
+/* Productos */
+.mainProductos {
+    background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/03-shiri1-46c59247bf3404383e16068387715475-1024-1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos {
+    font-size: 2.5rem;
+    padding: 10px;
+    color: #e58461;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card.filter {
+    background-color: grey;
+    padding: 6px;
+}
+
+.card.filter form {
+    width: 16rem;
+    width: none;
+    padding: none;
+    margin: none;
+    background-color: #f4f3ee;
+}
+
+.row{
+    justify-content: center;
+}
+
+/* Productos - Filtros */
+.card.filter form input {
+    text-align: center;
+}
+
+.card.filter button {
+    background-color: white;
+    width: 16rem;
+    color: black;
+}
+
+.container.filter {
+    background-color: rgba(255, 255, 255, 0.956);
+    border-radius: 0%;
+}
+
+.dropdown-menu {
+    text-align: center;
+    width: 16rem;
+}
+
+/* Productos - Cards */
+.card h5 {
+    font-weight: 600;
+    color: #cb997e
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    padding: 17px;
+    margin: 8px;
+    background-color: #f4f3ee;
+}
+
+.btnColor {
+    background-color: #e58461;
+    color: white
+}
+
+.btn:hover {
+    background-color: black;
+    color: #e58461;
+}
+
+/* Quienes Somos */
+.quienesSomos {
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
+    background-size: cover;
+}
+
+.qsBackbround {
+    background-color: rgba(240, 255, 255, 0.662);
+}
+
+.quienesSomos p {
+    text-align: center;
+    line-height: 2;
+    padding: 10px 66px;
+}
+
+.fa-seedling,
+.col .fa-recycle,
+.fa-earth-americas {
+    font-size: 4rem;
+}
+
+.quienesSomos .col {
+    background-color: #e9e7da76;
+    margin: 10px 5px;
+    padding: 10px 8px;
+}
+
+/*FaQ*/
+.mainFaq {
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/55-shiri21-8e7f759a65d675b49f16068384488485-1024-1024.jpg');
+    background-size: cover;
+}
+
+.faqBackground {
+    background-color: rgba(240, 255, 255, 0.696);
+}
+
+.faqBackground h2 {
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.faqBackground p {
+    padding: 10px;
+    text-align: center;
+}
+
+.mainFaq .col {
+    background-color: #e9e7da76;
+    margin: 10px 5px;
+    padding: 10px 8px;
+}
+
+.fa-heart,
+.fa-hands-bubbles,
+.fa-soap {
+    font-size: 3rem;
+}
+
+
+/* Contacto */
+.mainContacto {
+    background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/sorbete-aluminio1-836ec43b0fe50a332515730477862939-1024-1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contactoBackground {
+    background-color: rgba(240, 255, 255, 0.844);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactoBackground form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoBackground p {
+    margin: 8px 160px;
+    padding: 10px;
+    text-align: center;
+    font-size: 120%;
+    color: black;
+}
+
+.contactoBackground form input,
+.contactoBackground form textarea {
+    margin: 8px 160px;
+    padding: 10px;
+    text-align: center;
+    font-size: 120%;
+}
+
+.contactoBackground a.btn.btnColor {
+    margin: 8px 160px;
+    padding: 10px 130px;
+    font-size: 120%;
+}
+
+
+/* Tamaño Mediano */
+@media(max-width: 740px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .mainIndex {
+        min-height: 50vh;
+    }
+
+    .contactoBackground form input,
+    .contactoBackground form textarea {
+        margin: 1px 50px;
+    }
+}
+
+/* Tamaño Chico */
+@media(max-width: 510px) {
+    .contactoBackground form input,
+    .contactoBackground form textarea {
+        margin: 1px 10px;
+        width: 80vw;
+    }
+
+}
